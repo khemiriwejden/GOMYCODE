@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    font-size: 20px;
+    font-family: arial;
+    font-style: italic;
+    background-color: rgb(160, 67, 179);
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    padding: 1px;
+    background-color: white;
+    align-items: center;
+}
+
+nav img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 1000px;
+    margin: 5px;
+    border: 2px solid rgb(60, 60, 36);
+}
+.nav-btns {
+    display: flex;
+    gap: 10px;
+    background-color: transparent;
+}
+.nav-btns button {
+    padding: 4px;
+    border: orchid;
+    background-color: rgb(247, 97, 187);
+    border-radius: 8px;
+
+}
+
+.nav-btns button:hover {
+    background-color: rgb(201, 201, 220);
+    color: rgb(67, 56, 56);
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0 0 30px;
+    width: 200px;
+    height: 800px;
+    background-color: rgb(122, 64, 122);
+
+}
+
+aside div {
+    display: flex;
+    background-color: rgb(189, 106, 189);
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 300px;
+    transition: all 0.5s ease;
+    width: 150px;
+    color: white;
+}
+
+aside div:hover {
+    background-color: violet;
+    transform: translateX(40px);
+}
+main
+ {
+    display: flex;
+}
+.posts  
+{
+    display: flex;
+    background-color: rgb(141, 22, 141);
+    gap: 30px;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.posts *{
+    background-color: transparent;
+}
+.post
+ {display: flex;
+    background-color:rgb(244, 134, 244);
+    gap: 10px;
+    flex-direction: column;
+    width: 500px;
+}
+
+.title
+{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 12 px;
+}
+.date
+{
+    font-size: 16px;
+    color: gray;
+    padding: 0 12px;
+    border-bottom:  1px solid lightgray;
+}
+.post-btns
+{
+    display:  flex;
+    justify-content: space-around;
+}
+.post-btns i{
+    font-size: 30px;
+padding: 8px;
+color: rosybrown;}
+.post-btns i:hover
+{
+    color: violet;
+}
+.content
+{
+    font-size: 18px;
+}

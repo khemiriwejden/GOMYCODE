@@ -1,0 +1,21 @@
+.paragraphe{
+    color: brown;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: double underline gray (74, 74, 81) 5px; 
+    text-shadow: 2px 0 8px  pink;
+    background-color:  darkgray;
+    
+    height:300px;
+    width: 500px;
+    border: 4px solid black;
+}
+body
+{
+background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20250205/pngtree-soft-pastel-floral-design-light-blue-background-image_16896113.jpg) ;
+background-position: center;
+background-size:cover ;
+background-repeat: no-repeat;
+height: 100vh;
+}

@@ -1,0 +1,176 @@
+ALGORITHM loop 
+VAR
+    i:int
+BEGIN
+    FOR i FROM 1 TO 5 STEP 2  DO
+        write (i)
+    END_FOR
+END
+
+
+
+ ALGORITHM Paire ( 0-20 )
+ 
+ VAR
+    i:INT
+ BEGIN
+   FOR i FROM 0 TO 20 STEP 2 DO
+       write(i)
+    END_FOR
+ END
+
+
+
+   ALGORITHM Paire ( 20-0 ) 
+ VAR
+    i:INT
+ BEGIN
+   FOR i FROM 20 TO 0 STEP -1 DO
+       write(i)
+    END_FOR
+ END
+
+
+ ALGORITHM somme ( 0-20 ) 
+ VAR
+    s:=0
+ BEGIN
+ s:=s+i
+   FOR i FROM 0 TO 20  DO
+       write(i)
+    END_FOR
+    write("S=",s)
+ END
+
+
+
+
+
+ ALGORITHM somme ( 0-n ) 
+ VAR
+    i,n,s:int
+    s:=0
+ BEGIN
+ write ("write a number")
+ read (n)
+ s:=s+i
+   FOR i FROM 0 TO n  DO
+       write(i)
+    END_FOR
+    write("S=",s)
+ END
+
+
+  ALGORITHM produit ( 1-n ) 
+ VAR
+    i,n,p:int
+    p:=1
+ BEGIN
+ write ("write a number")
+ read (n)
+
+   FOR i FROM 1 TO n  DO
+       write p:=p*i
+    END_FOR
+    write("p=",p)
+ END
+
+
+  ALGORITHM somme de dix elements 
+ VAR
+    i,n,s:int
+  
+ BEGIN
+   s:=0
+FOR i FROM 0 TO 9  DO
+    write ("write a number",i)
+   read (n)
+       write s:=s+n
+    END_FOR
+    write("s=",s)
+ END
+
+ALGORITHM produit de dix elements 
+ VAR
+    i,n,s:int
+  
+ BEGIN
+   s:=1
+FOR i FROM 1 TO 10  DO
+    write ("write a number",i)
+   read (n)
+   if(n!=0) then 
+   write s:=s+n
+END_FOR
+    write("s=",s)
+ END
+
+
+ALGORITHM comparaison de dix elements MAX
+ VAR
+    i,n,max:int
+  max:=-infinity
+ BEGIN
+   max:=0
+FOR i FROM 1 TO 10  DO
+    write ("write a number",i)
+   read (n)
+   IF (n>max) THEN
+    max:= n
+   END_IF
+       
+    END_FOR
+    write("max=",max)
+ END
+
+ALGORITHM comparaison de dix elements Min
+ VAR
+    i,n,min:int
+  min:= +infinity
+ BEGIN
+   min:=0
+FOR i FROM 1 TO 10  DO
+    write ("write a number",i)
+   read (n)
+   IF (n<min) THEN
+    min:= n
+   END_IF
+       
+    END_FOR
+    write("min=",min)
+ END
+
+
+ ALGORITHM nombre des eleves et moyenne de la classe 
+ VAR
+    i,n,:int ;
+    N,avg,s:float ;
+  
+ BEGIN
+   write ("ecrire le nombre des eleves")
+   read (n)
+   s:=0
+FOR i FROM 1 TO n  DO
+    write ("write a note",i)
+   read (N)
+   s:=s+x
+END_FOR
+    write ("class avg",avg)
+ END
+
+
+ ALGORITHM le mot le plus long 
+ VAR
+    w:STRING
+    max:=""
+ BEGIN
+
+ FOR i FROM 1 TO 10  DO
+ write ("saisir le mot ")
+ read (w)
+ if (length (str)>length (max)) then
+  max:=STR
+    
+ END_FOR
+    write ("longest string=",max)
+ END

@@ -1,0 +1,104 @@
+ALGORITHM loop while 
+VAR
+    set_declarations
+BEGIN
+    read(n)
+    WHILE (n mod 2 = 0) DO
+        n:=n div 2
+    END_WHILE
+    write(n)
+END
+
+ALGORITHM repeat
+VAR
+    
+BEGIN
+   REPEAT
+   write ( "type a positive number" )
+   read 
+   (n) 
+   UNTIL (n>0)
+END
+ALGORITHM repeat 
+VAR
+    
+BEGIN
+   REPEAT
+   write ( "type a positive number" )
+   read 
+   (n) 
+   UNTIL (n>0 and nmod 2=0)
+END
+ALGORITHM repeat max length string
+VAR
+    
+BEGIN
+   REPEAT
+   write ( "type a str" )
+   read 
+   (str) 
+   UNTIL (length (str) >8 )
+END
+
+ALGORITHM affiche de 1 a 10 with while
+VAR
+    read(n)
+BEGIN
+n:=1
+
+WHILE ( n<10) DO
+    read (n)
+    n:=n+1
+END_WHILE
+    set_instructions
+END
+
+
+
+ALGORITHM affiche de 1 a 10 with REPEAT
+   VAR
+    
+BEGIN
+n:=1
+   REPEAT
+ write  (n) 
+ n:=n+1
+   UNTIL (n >10)
+END
+
+
+ ALGORITHM somme de dix elements 
+ VAR
+    i,n,s:int
+  
+ BEGIN
+   s:=0
+FOR i FROM 1 TO 10  DO
+REPEAT 
+    write ("write a number",i)
+   read (n)
+ 
+   UNTIL (n>0 and n<20)
+         write s:=s+n
+    END_FOR
+    write("s=",s)
+ END
+
+
+ ALGORITHM Parcourir une chaine , saisie dune chaine et affichage chacun de ces char
+ VAR
+    str:STRING
+    i: int
+ BEGIN
+    FOR i FROM 0 TO  length (str) -1  DO
+      
+         write (str [i])
+      
+    END_FOR
+ END
+
+
+
+
+ ALGORITHM  parcourir  une chaine 
+ VAR

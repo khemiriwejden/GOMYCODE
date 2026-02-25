@@ -1,0 +1,21 @@
+.item{
+    width: 80px;
+    height: 80px;
+    border: 2px solid gray;
+    margin: 4px;
+}
+.container {
+    background-color: rgb(255, 244, 231);
+    width: 900px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;/*space between fixe lespcae entre les blocs*/
+    align-items: center;
+    /*gap: 40px;  gap je saisis lespace bien defini entre les blocs*/ 
+
+}
+/*.item:nth-child(3) le bloc 3 va seulement saggrandir de deux bloc de plus
+{
+    flex: 2;
+}

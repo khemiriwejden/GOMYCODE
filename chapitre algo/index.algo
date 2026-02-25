@@ -1,0 +1,65 @@
+
+
+
+
+ALGORITHM 
+VAR
+ x:CHAR;
+  
+BEGIN
+write("entrer le charactere x")
+read(x)
+
+
+IF (x in  "0123456789" ) THEN
+    write( "numerique")
+    ELSE_IF (x in "ABCDEFGHIJKLMNOPQRSTUVWXYZ") THEN
+    write( "ALPHABETIC MAJUSCULE")
+    ELSE_IF (x in "abcdefghijklmnopqrstuvwxyz") THEN
+
+    write( "alphabetic miniscule")
+   
+    ELSE
+    write( "special")
+
+
+END_IF
+END
+
+ALGORITHM season
+VAR
+    n:INTEGER
+BEGIN
+    SWITCH (m) DO
+        case 12,1,2 : write ("winter")
+        case 3,4,5 : write ("spring")
+        case 6,7,8 : write ("summer")
+        case 9,10,11 : write ("automne")
+        default : write("invalid")
+    END_SWITCH
+END
+
+
+
+
+
+
+
+
+
+
+ ALGORITHM algorithm_name
+ VAR
+   n : INTEGER
+ BEGIN
+    write("type star"number")
+    read(p)
+SWITCH (n) DO
+    case 0 : write("mediocre")
+    case 1 : write("passable")
+    case 2 : write("good :)")
+    case 3 : write("very good ")
+    case 4 :write("exccellent :D")
+   case 5 : write ("perfect")
+END_SWITCH
+ END
